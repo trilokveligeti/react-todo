@@ -1,0 +1,59 @@
+/* html,
+body {
+    height: 100%;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.hero {
+    background-color: #60c042d2;
+    border-color: #5f798a;
+    margin-bottom: 20px;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #D0E3F0;
+    border-right: 5px solid #D0E3F0;
+  }
+
+  .form {
+    background-color: #F0F7FD;
+    border-color: #1c1f22;
+    margin-bottom: 20px;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #D0E3F0;
+    border-right: 5px solid #D0E3F0;
+  }
+
+  .actionButton-complete {
+    padding: 15px 30px 15px 15px;  
+    color: green;
+  }
+  .actionButton-delete {
+    padding: 15px 30px 15px 15px;  
+    color: red;
+  }
+
+.task {
+    background-color: #F0F7FD;
+    border-color: #D0E3F0;
+    margin-bottom: 20px;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #D0E3F0;
+  }
+
+  .complete {
+      font-style: italic;
+      text-decoration: line-through;
+  }
+  .todo {
+      font-style: normal;
+      font-weight: bold;
+  }
+
+  .task:hover {
+    background-color: #D0E3F0;
+  }
+  
